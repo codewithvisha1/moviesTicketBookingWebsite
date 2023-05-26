@@ -1,104 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- link bootstrap css file -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- link common css file -->
-    <link rel="stylesheet" href="assets/css/common.css">
-    <!-- link font-awesome css file -->
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-    <!-- link fonts css file -->
-    <link rel="stylesheet" href="assets/css/fonts.css">
-    <!-- link variable css file -->
-    <link rel="stylesheet" href="assets/css/variable.css">
-    <!-- link style css file -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- link bootstrap css file -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- link common css file -->
+  <link rel="stylesheet" href="assets/css/common.css">
+  <!-- link font-awesome css file -->
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <!-- link fonts css file -->
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <!-- link variable css file -->
+  <link rel="stylesheet" href="assets/css/variable.css">
+  <!-- link style css file -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
 </head>
 
 <body>
-    <!-- back to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
-    <!-- header section -->
-    <nav class="top-navbar">
+  <!-------------------------- header section ------------------------->
+  <header class="py-3">
     <div class="container">
-    <header class="d-flex justify-content-between py-2 sticky-top">
-    
-        <div class="left-box d-flex  align-items-center ps-3">
-            <ul class="list">
-                <li><a href="" class="active-bottom fw-bold">CATEGORIES</a></li>
-                <li><a href="" class="brand mx-3">LUXE</a></li>
-                <li><a href="" class="fw-bold">BARGAINS</a></li>
+      <div class="row">
+        <div class="col-sm-1">
+          <div class="logo">
+            <img src="assets/images/p1.png" alt="">
+          </div>
+        </div>
+        <div class="col-sm-8 d-flex align-items-center">
+          <div class="search-bar">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input type="text" class="form-control" placeholder="Search movies or theaters..." aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 d-flex align-items-center justify-content-between">
+          <div class="dropdown">
+            <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fa-solid fa-location-dot pe-2"></i>Select your city
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
+          </div>
+          <div class="sign-up-btn">
+            <button class="btn btn-sm" type="button">Sign Up</button>
+          </div>
+          <div class="sidebar-icon">
+            <i class="fa-solid fa-bars fs-4"></i>
+          </div>
         </div>
-        <div class="logo">
-            <a href="">
-                <img src="https://img.logoipsum.com/297.svg" alt="">
-            </a>
-        </div>
-        <div class="right-box d-flex me-5">
-            <div class="search-input me-3 d-flex">
-                <input type="text" class="form-control rounded-0" placeholder="Search Products & Brand"
-                    aria-label="Username" aria-describedby="basic-addon1">
-                <div class="search-icon d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
+      </div>
+    </div>
+  </header>
+  <!------------------------Navbar section ------------------------------->
+  <nav class="navbar d-flex align-items-center">
+    <div class="container">
+      <div class="main d-flex justify-content-between w-100">
+        <ul class="list">
+          <li><a href="">Hollywood movies</a></li>
+          <li><a href="">Bollywood movies</a></li>
+          <li><a href=""></a></li>
+          <li><a href="">movies</a></li>
+        </ul>
 
-            </div>
-            <div class="header-icons d-flex  align-items-center">
-                <ul class="list">
-                    <li>
-                        <a href=""><i class="fa-solid fa-heart"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fa-solid fa-user"></i></a>
-                    </li>
-                </ul>
-            </div>
+        <ul class="list">
+          <li><a href="">movies</a></li>
+          <li><a href="">movies</a></li>
+          <li><a href="">movies</a></li>
+          <li><a href="">movies</a></li>
+          <li><a href="">movies</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel section -->
+  <div class="main-content">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="assets/images/cover1.jpg" alt="Picture 1">
         </div>
-    </header>
+        <div class="item">
+            <img src="assets/images/cover2.jpg" alt="Picture 2">
+        </div>
+    </div>
 </div>
-    </nav>
-    
-    <!------------------------Navbar section ------------------------------->
-    <div class="navbar navbar-expand-lg">
-        <div class="container">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a href="" class="text-capitalize nav-link ">men</a></li>
-                <li class="nav-item"><a href="" class="text-capitalize nav-link">women</a></li>
-                <li class="nav-item"><a href="" class="text-capitalize nav-link">beauty</a></li>
-                <li class="nav-item"><a href="" class="text-capitalize nav-link">watches</a></li>
-                <li class="nav-item"><a href="" class="text-capitalize nav-link">kid</a></li>
-                <li class="nav-item"><a href="" class="text-capitalize nav-link">homestop</a></li>
-                <li class="nav-item"><a href="" class="text-capitalize nav-link">gifts</a></li>
-                <li class="nav-item"><a href="" class="text-capitalize nav-link">brand</a></li>
-            </ul>
-        </div>
-        
-        </div>
+<div class="movie-play">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-uppercase">NOW SHOWING</h2>
+            <div class="data d-flex flex-wrap justify-content-between" id="pr-movie">
+            </div>
+     </div>
+  </div>
+</div>
+<!-- movies section -->
+<div class="movies-list">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-uppercase">NOW SHOWING</h2>
+            <div class="data d-flex flex-wrap justify-content-between" id="pr-id">
+            </div>
+     </div>
     </div>
-    <div class="path-list ps-5 pt-3">
-        <div class="container">
-            <ul>
-                <li class="d-inline">Home</li>
-                <li class="d-inline">/ Women</li>
-                <li class="d-inline">/ Indianwear</li>
-            </ul>
-        </div>
-        
-    </div>
-    
-    <!-- link script file for get api data-->
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/back-to-top.js"></script>
-    <!-------------------- link BOOTSTRAP JAVASCRIPT FILE --------------------->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-------------------- link BOOTSTRAP JAVASCRIPT FILE --------------------->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
