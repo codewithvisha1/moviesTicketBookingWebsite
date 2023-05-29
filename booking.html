@@ -67,94 +67,64 @@
       </div>
     </div>
   </header>
-
-  <!-- bootstrap Modal for signUP form-->
+   <!-- bootstrap Modal for signUP form-->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header border-0">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign up</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      
-      </div>
-      <div class="modal-body ">
-        <div class="body-top d-flex justify-content-center">
-          <img src="assets/images/logo.png" alt="">
-        </div>
-        <form action="index.html" method="post" class="p-5">
-          <div class="form-floating">
-            <input type="email" class="form-control" id="email" placeholder="name@example.com">
-            <label for="email">Email address</label>
-          </div>
-          <div class="form-floating">
-            <input type="text" class="form-control" id="phone" placeholder="name@example.com">
-            <label for="phone">Phone number</label>
-          </div>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign up</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         
-          <div class="form-floating">
-            <input type="password" class="form-control" id="pass" placeholder="name@example.com">
-            <label for="pass">Password</label>
+        </div>
+        <div class="modal-body ">
+          <div class="body-top d-flex justify-content-center">
+            <img src="assets/images/logo.png" alt="">
           </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="confirm-pass" placeholder="name@example.com">
-            <label for="confirm-pass">Confirm Password</label>
-          </div>
-        <button type="submit" class="btn btn-primary" id="modalData" name="create">Sign up</button>
-      </form>
+          <form action="index.html" method="post" class="p-5">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              <label for="email">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="phone" placeholder="name@example.com">
+              <label for="phone">Phone number</label>
+            </div>
+          
+            <div class="form-floating">
+              <input type="password" class="form-control" id="pass" placeholder="name@example.com">
+              <label for="pass">Password</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="confirm-pass" placeholder="name@example.com">
+              <label for="confirm-pass">Confirm Password</label>
+            </div>
+          <button type="submit" class="btn btn-primary" id="modalData" name="create">Sign up</button>
+        </form>
+        </div>
       </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div> -->
     </div>
   </div>
-</div>
 
-  <!------------------------Navbar section ------------------------------->
-  <!-- <nav class="navbar d-flex align-items-center">
+  <!-- booking section -->
+   
+  <div class="movie-section" id="movie-section-id">
     <div class="container">
-      <div class="main d-flex justify-content-between w-100">
-        <ul class="list">
-          <li><a href="">Hollywood movies</a></li>
-          <li><a href="">Bollywood movies</a></li>
-          <li><a href=""></a></li>
-          <li><a href="">movies</a></li>
-        </ul>
+        <div class="row">
+            <div class="col-sm-4">
+             <div class="card-data" id="card-data-id">
 
-        <ul class="list">
-          <li><a href="">movies</a></li>
-          <li><a href="">movies</a></li>
-          <li><a href="">movies</a></li>
-          <li><a href="">movies</a></li>
-          <li><a href="">movies</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-
-  <!-- carousel section -->
-  <div class="main-content position-relative">
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <img src="assets/images/cover1.jpg" alt="Picture 1">
-        </div>
-        <div class="item">
-            <img src="assets/images/cover2.jpg" alt="Picture 2">
-        </div>
-    </div>
-    <!-- movies section -->
-<div class="movies-list position-absolute">
-  <div class="container">
-    <div class="row">
-            <div class="data d-flex flex-wrap justify-content-between" id="pr-id">
+             </div>
             </div>
-     </div>
+            <div class="col-sm-8">
+                <div class="content" id="content-id">
+
+                </div>
+
+            </div>
+        </div>
     </div>
-</div>
-</div>
 
-
-
+  </div>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <!-------------------- link BOOTSTRAP JAVASCRIPT FILE --------------------->
@@ -163,4 +133,3 @@
 </body>
 
 </html>
-
