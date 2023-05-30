@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- link bootstrap css file -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- link common css file -->
+  <link rel="stylesheet" href="assets/css/common.css">
+  <!-- link font-awesome css file -->
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <!-- link fonts css file -->
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <!-- link variable css file -->
+  <link rel="stylesheet" href="assets/css/variable.css">
+  <!-- link style css file -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+</head>
+
+<body>
+  <!-------------------------- header section ------------------------->
+  <header class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-1">
+          <div class="logo">
+            <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="col-sm-8 d-flex align-items-center">
+          <div class="search-bar">
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input type="text" class="form-control" placeholder="Search movies or theaters..." aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 d-flex align-items-center justify-content-between">
+          <div class="dropdown">
+            <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fa-solid fa-location-dot pe-2"></i>Select your city
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <div class="sign-up-btn">
+            <!-- Button trigger modal -->
+            <button class="btn btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="sign-up-button">Sign Up</button>
+            <h4 id="display-name" class="text-white"></h4>
+            <button class="btn btn-sm" type="button" d id="here" onclick="logout()">Logout</button>
+          </div>
+          <div class="sidebar-icon">
+            <i class="fa-solid fa-bars fs-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
